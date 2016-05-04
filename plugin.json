@@ -1,6 +1,9 @@
 {
-	"id": "nodebb-theme-cd-persona",
-	"hooks": [],
+	"id": "nodebb-theme-persona",
+	"library": "library.js",
+	"hooks": [
+		{ "hook": "filter:teasers.get", "method": "getTeasers" }
+	],
 	"staticDirs": {
 		"images": "static/images"
 	},
