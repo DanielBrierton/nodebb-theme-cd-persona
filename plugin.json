@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-theme-persona",
+	"id": "nodebb-theme-cd-persona",
 	"library": "library.js",
 	"hooks": [
 		{ "hook": "filter:teasers.get", "method": "getTeasers" },
@@ -8,6 +8,10 @@
 		{ "hook": "static:app.load", "method": "init" },
 		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" }
 	],
+	"languages": "languages",
+	"staticDirs": {
+		"images": "static/images"
+	},
 	"scripts": [
 		"lib/persona.js",
 		"lib/modules/nprogress.js",
