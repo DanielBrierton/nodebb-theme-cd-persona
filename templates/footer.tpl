@@ -19,6 +19,7 @@
 			<p>[[global:reconnecting-message, {config.siteTitle}]]</p>
 		</div>
 	</div>
+	<!-- IMPORT partials/cd-footer.tpl -->
 
 	<script>
 		require(['forum/footer']);

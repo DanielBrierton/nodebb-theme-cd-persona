@@ -82,7 +82,9 @@
 
 	<main id="panel">
 		<nav class="navbar navbar-default navbar-fixed-top header" id="header-menu" component="navbar">
+			<!-- IMPORT partials/cd-header.tpl -->
 			<div class="container">
+				<!-- IMPORT partials/cd-content-header.tpl -->
 				<!-- IMPORT partials/menu.tpl -->
 			</div>
 		</nav>
