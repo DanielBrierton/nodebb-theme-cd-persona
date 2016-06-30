@@ -1,6 +1,10 @@
 {
-	"id": "nodebb-theme-persona",
+	"id": "nodebb-theme-cd-persona",
 	"hooks": [],
+	"languages": "languages",
+	"staticDirs": {
+		"images": "static/images"
+	},
 	"scripts": [
 		"lib/persona.js",
 		"lib/modules/nprogress.js",

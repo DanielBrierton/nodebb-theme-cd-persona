@@ -14,6 +14,7 @@
 		</div>
 	</div>
 	<div component="toaster/tray" class="alert-window"></div>
+	<!-- IMPORT partials/cd-footer.tpl -->
 
 	<script>
 		require(['forum/footer']);
