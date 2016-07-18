@@ -1,7 +1,6 @@
 {
 	"id": "nodebb-theme-cd-persona",
 	"hooks": [],
-	"languages": "languages",
 	"staticDirs": {
 		"images": "static/images"
 	},
