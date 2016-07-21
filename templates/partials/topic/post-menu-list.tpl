@@ -40,6 +40,7 @@
 <!-- ENDIF posts.display_moderator_tools -->
 
 <!-- IF !posts.deleted -->
+<!-- IF config.loggedIn -->
 <li role="presentation">
 	<a component="post/favourite" role="menuitem" tabindex="-1" href="#" data-favourited="{posts.favourited}">
 
@@ -50,6 +51,7 @@
 		<i component="post/favourite/off" class="fa fa-heart-o <!-- IF posts.favourited -->hidden<!-- ENDIF posts.favourited -->"></i>
 	</a>
 </li>
+<!-- ENDIF config.loggedIn -->
 
 <!-- IF postSharing.length -->
 <li role="presentation" class="divider"></li>
@@ -61,10 +63,9 @@
 	</li>
 <!-- END postSharing -->
 
-<li role="presentation" class="divider"></li>
-
 <!-- IF config.loggedIn -->
 <!-- IF !posts.selfPost -->
+<li role="presentation" class="divider"></li>
 <li role="presentation">
 	<a component="post/flag" role="menuitem" tabindex="-1" href="#">
 		[[topic:flag_title]]

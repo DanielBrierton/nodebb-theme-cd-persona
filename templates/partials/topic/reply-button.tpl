@@ -1,4 +1,4 @@
-<div class="btn-group action-bar <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->">
+<div component="topic/reply/container" class="btn-group action-bar <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->">
 	<button class="btn btn-primary" component="topic/reply">[[topic:reply]]</button>
 	<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
 		<span class="caret"></span>
@@ -22,6 +22,6 @@
 <!-- ELSE -->
 
 <!-- IF !privileges.topics:reply -->
-<a href="{config.relative_path}/login" class="btn btn-primary">[[topic:guest-login-reply]]</a>
+<a component="topic/reply/guest" href="{config.relative_path}/login" class="btn btn-primary">[[topic:guest-login-reply]]</a>
 <!-- ENDIF !privileges.topics:reply -->
 <!-- ENDIF loggedIn -->

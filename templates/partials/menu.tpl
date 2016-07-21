@@ -15,7 +15,7 @@
 				</a>
 				<!-- ENDIF config.showSiteTitle -->
 
-				<div component="navbar/title" class="visible-xs">
+				<div component="navbar/title" class="visible-xs hidden">
 					<span></span>
 				</div>
 			</div>
@@ -59,6 +59,17 @@
 								</a>
 							</li>
 							<li role="presentation" class="divider"></li>
+							<li>
+								<a href="{relative_path}/user/{user.userslug}/edit">
+									<i class="fa fa-fw fa-edit"></i> <span>[[user:edit-profile]]</span>
+								</a>
+							</li>
+							<li>
+								<a href="{relative_path}/user/{user.userslug}/settings">
+									<i class="fa fa-fw fa-gear"></i> <span>[[user:settings]]</span>
+								</a>
+							</li>
+							<li role="presentation" class="divider"></li>
 							<li component="user/logout">
 								<a href="#"><i class="fa fa-fw fa-sign-out"></i><span> [[global:logout]]</span></a>
 							</li>
@@ -96,6 +107,7 @@
 									</li>
 								</ul>
 							</li>
+							<li class="notif-dropdown-link"><a href="#" class="mark-all-read" component="chats/mark-all-read">[[modules:chat.mark_all_read]]</a></li>
 							<li class="notif-dropdown-link"><a href="{relative_path}/chats">[[modules:chat.see_all]]</a></li>
 						</ul>
 					</li>
