@@ -1,4 +1,8 @@
-#menu, .header {
+.header {
+	margin: 0;
+	background: #f8f8f8;
+	border-width: 1px 0 0 0;
+
 	.notification-list {
 		overflow-x: hidden;
 		overflow-y: auto;
@@ -236,6 +240,17 @@
 			margin-left: -30px;
 		}
 	}
+
+	#nav-dropdown {
+		a {
+			color: #777;
+
+			&:hover {
+				color: #307bc7;
+				background-color: #cfe1f4;
+			}
+		}
+	}
 }
 
 .breadcrumb {
@@ -358,13 +373,14 @@
 	}
 }
 
-body.skin-default .header {
-	.notification-list {
-	
-		li {
-			a {
-				color: inherit;
-			}
-		}
+.cd-menu__profile {
+	&Menu .user-status {
+		font-size: 12px;
+		padding: 9px 15px;
+	}
+
+	> .status {
+		position: absolute;
+		left: 36px;
 	}
 }
