@@ -48,9 +48,7 @@
 	}
 
 	#panel {
-		background-color: inherit;
 		min-height: 100%;
-		padding-top: 80px;
 	}
 
 	body, #panel, .slideout-menu {
@@ -58,15 +56,6 @@
 	}
 
 	#menu {
-
-		padding-top: 100px;
-		background-color: #1D1F20;
-		background-image: linear-gradient(145deg, #1D1F20, #404348);
-
-		a {
-			color: #fff;
-			text-decoration: none;
-		}
 
 		a:hover {
 			text-decoration: underline;
@@ -81,6 +70,14 @@
 				color: #fff;
 				position: relative;
 				height: 60px;
+				padding: 0;
+
+				a {
+					i {
+						left: 44px;
+						top: 9px;
+					}
+				}
 				
 				&:hover {
 					background: none;
@@ -221,30 +218,35 @@
 
 	.menu-profile {
 		text-align: center;
-		background: #101010;
-		position: absolute;
+		position: relative;
 		height: 75px;
 		width: 100%;
-		top: 0px;
-		z-index: 1;
 
 		img, .user-icon {
 			.user-icon-style(70px, 4rem);
 			position: absolute;
-			bottom: -22px;
-			left: 93px;
+			left: 50%;
 			border-radius: 50%;
+			transform: translateX(-50%);
 		}
 
 		i {
 			position: absolute;
-			left: 145px;
+			left: calc(~'50% + 16px');
 			font-size: 21px;
-			top: 28px;
+			top: 12px;
 		}
 	}
 
 	[data-section="notifications"] ul li a:first-child {
 		display: none;
 	}
+<<<<<<< 4bef8503e84e32b85761fda1c478bcc70c2627a4
+=======
+
+	.forum-avatar {
+		width: 96px;
+		height: 96px;
+	}
+>>>>>>> Implemented new common menu (#3)
 }
