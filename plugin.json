@@ -9,16 +9,19 @@
 		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" }
 	],
 	"staticDirs": {
-		"images": "static/images"
+		"images": "static/images",
+		"css": "static/css"
 	},
 	"scripts": [
 		"lib/persona.js",
 		"lib/modules/nprogress.js",
 		"lib/modules/autohidingnavbar.min.js",
 		"lib/modules/slideout.min.js",
-		"lib/client/chats.js"
+		"lib/client/chats.js",
+		"lib/cd-common.min.js"
 	],
 	"acpScripts": [
-		"lib/admin.js"
+		"lib/admin.js",
+		"lib/client/chats.js"
 	]
 }

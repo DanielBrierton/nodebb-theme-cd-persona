@@ -1,4 +1,8 @@
-#menu, .header {
+.header {
+	margin: 0;
+	background: #f8f8f8;
+	border-width: 1px 0 0 0;
+
 	.notification-list {
 		overflow-x: hidden;
 		overflow-y: auto;
@@ -222,7 +226,7 @@
 		// margin-top: 1em;
 		border-top: 1px solid rgba(163, 163, 163, 0.5);
 		padding: 0 5px 0 5px;
-		
+
 		a {
 			display: block;
 			text-align: center;
@@ -234,6 +238,17 @@
 	#search-form {
 		.advanced-search-link {
 			margin-left: -30px;
+		}
+	}
+
+	#nav-dropdown {
+		a {
+			color: #777;
+
+			&:hover {
+				color: #307bc7;
+				background-color: #cfe1f4;
+			}
 		}
 	}
 }
@@ -292,8 +307,8 @@
 .unread-count:after {
 	content: attr(data-content);
 	position: absolute;
-    	left: 23px;
-    	top: 10px;
+	left: 23px;
+	top: 10px;
 	font-size: 10px;
 	text-align: center;
 	border: 1px solid #890405;
@@ -310,8 +325,8 @@
 
 #mobile-menu [component="notifications/icon"].unread-count:after, .slideout-menu .unread-count:after {
 	position: relative;
-    	left: -6px;
-    	top: -7px;
+	left: -6px;
+	top: -7px;
 }
 
 #search-form {
@@ -358,13 +373,32 @@
 	}
 }
 
-body.skin-default .header {
-	.notification-list {
-	
-		li {
-			a {
-				color: inherit;
-			}
-		}
+.cd-menu__profile {
+	&Menu .user-status {
+		font-size: 12px;
+		padding: 9px 15px;
 	}
+
+	> .status {
+		position: absolute;
+		left: 36px;
+	}
+}
+
+.cd-menu__sliding-menu-secondary {
+
+  .chat-list {
+    img {
+      width: 32px;
+      border-radius: 100%;
+      margin-right: 8px;
+    }
+
+    .user-icon {
+      height: 32px;
+      width: 32px;
+      border-radius: 100%;
+      margin-right: 8px;
+    }
+  }
 }
