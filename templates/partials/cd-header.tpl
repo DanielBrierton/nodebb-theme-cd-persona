@@ -45,9 +45,10 @@
               <i class="fa fa-fw fa-circle status offline"></i><span> [[global:invisible]]</span>
             </a>
           </li>
-          <li><a href="{relative_path}/user/{user.userslug}">My Profile</a></li>
-          <li><a href="/dashboard/my-dojos">My Dojos</a></li>
-          <li><a href="/dashboard/dojos/events/user-events">My Events</a></li>
+          <li><a href="{relative_path}/user/{user.userslug}">Forum Profile</a></li>
+          <li><a href="https://zen.coderdojo.com/profile/">My Profile</a></li>
+          <li><a href="https://zen.coderdojo.com/dashboard/my-dojos">My Dojos</a></li>
+          <li><a href="https://zen.coderdojo.com/dashboard/dojos/events/user-events">My Events</a></li>
           <li class="cd-menu__cdf-admin-link"><a href="/dashboard/manage-dojos">Manage Dojos</a></li>
           <li class="cd-menu__cdf-admin-link"><a href="http://badgekit.coderdojo.com/">Badgekit</a></li>
           <li class="cd-menu__cdf-admin-link"><a href="/dashboard/stats">Stats</a></li>
@@ -72,9 +73,9 @@
           Community
           <i class="cd-menu__dropdown-icon fa fa-chevron-down"></i>
           <ul>
-            <li><a href="https://coderdojo.com/community/badges/">Badges</a></li>
-            <li><a href="https://coderdojo.com/regional-bodies/">Regional Bodies</a></li>
-            <li><a href="https://forums.coderdojo.com/">Forums</a></li>
+            <li><a href="https://zen.coderdojo.com/badges/">Badges</a></li>
+            <li><a href="https://forums.coderdojo.com/">Adult Forums</a></li>
+            <li><a href="https://ninjaforums.coderdojo.com/">Ninja Forums</a></li>
           </ul>
         </span>
       </li>
@@ -136,9 +137,10 @@
                 <span class="cd-menu__profile-name"></span>
               </div>
               <ul class="cd-menu__content-block cd-menu__profile-menu">
-                <li><a class="cd-menu__profile-link">My Profile</a></li>
-                <li><a href="/dashboard/my-dojos">My Dojos</a></li>
-                <li><a href="/dashboard/dojos/events/user-events">My Events</a></li>
+                <li><a class="cd-menu__profile-link" href="{relative_path}/user/{user.userslug}">Forum Profile</a></li>
+                <li><a href="https://zen.coderdojo.com/profile/">My Profile</a></li>
+                <li><a href="https://zen.coderdojo.com/dashboard/my-dojos">My Dojos</a></li>
+                <li><a href="https://zen.coderdojo.com/dashboard/dojos/events/user-events">My Events</a></li>
                 <li class="cd-menu__cdf-admin-link"><a href="/dashboard/manage-dojos">Manage Dojos</a></li>
                 <li class="cd-menu__cdf-admin-link"><a href="http://badgekit.coderdojo.com/">Badgekit</a></li>
                 <li class="cd-menu__cdf-admin-link"><a href="/dashboard/stats">Stats</a></li>
@@ -169,9 +171,9 @@
                 <span>Community</span>
               </div>
               <ul class="cd-menu__content-block">
-                <li><a href="https://coderdojo.com/community/badges/">Badges</a></li>
-                <li><a href="https://coderdojo.com/regional-bodies/">Regional Bodies</a></li>
-                <li><a href="https://forums.coderdojo.com/">Forums</a></li>
+                <li><a href="https://zen.coderdojo.com/badges/">Badges</a></li>
+                <li><a href="https://forums.coderdojo.com/">Adult Forums</a></li>
+                <li><a href="https://ninjaforums.coderdojo.com/">Ninja Forums</a></li>
               </ul>
             </div>
           </div>
