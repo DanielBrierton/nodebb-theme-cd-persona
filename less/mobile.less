@@ -95,6 +95,8 @@
 		}
 
 		.counter {
+			// I dont't know why this is needed but it is so don't delete it
+			position: absolute;
 			font-style: normal;
 
 			&:after {
@@ -197,5 +199,16 @@
 	.forum-avatar {
 		width: 96px;
 		height: 96px;
+	}
+
+	.notification-list-mobile {
+		font-size: 10px;
+		margin-right: 8px;
+
+		a {
+			flex-direction: column-reverse;
+			align-items: flex-start;
+			padding-left: 16px;
+		}
 	}
 }
