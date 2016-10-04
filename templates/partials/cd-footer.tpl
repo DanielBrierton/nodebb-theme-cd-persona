@@ -13,8 +13,8 @@
       <p class="cd-footer__address-line">Dublin 1, Ireland</p>
     </div>
     <div class="col-sm-3 col-sm-offset-3">
-      <p><a href="/charter">Charter</a></p>
-      <p><a href="/privacy-statement">Privacy Statement</a></p>
+      <p><a href="https://zen.coderdojo.com/charter">Charter</a></p>
+      <p><a href="https://zen.coderdojo.com/privacy-statement">Privacy Statement</a></p>
       <p><a href="http://github.coderdojo.com">Contribute</a></p>
       <p class="cd-footer__social-icons">
         <a href="https://twitter.com/coderdojo" target="_blank">
