@@ -2,7 +2,7 @@
 <div widget-area="header"></div>
 <div class="row">
 	<div widget-area="header" class="col-sm-12"></div>
-	<div class="topic col-lg-9 col-sm-12" no-widget-class="topic col-lg-12 col-sm-12" no-widget-target="sidebar">
+	<div class="topic col-lg-12 col-sm-12" no-widget-class="topic col-lg-12 col-sm-12" no-widget-target="sidebar">
 
 		<h1 component="post/header" class="hidden-xs" itemprop="name">
 
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 	</div>
-	<div widget-area="sidebar" class="col-lg-3 col-sm-12"></div>
+	<div widget-area="sidebar" class="col-lg-3 col-sm-12 hidden"></div>
 </div>
 <div widget-area="footer"></div>
 
