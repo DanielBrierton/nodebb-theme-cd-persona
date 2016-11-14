@@ -18,7 +18,7 @@
         <!-- IF user.picture -->
         <div class="cd-menu__profile-pic" style="background-image: url({user.picture})"></div>
         <!-- ELSE -->
-        <div class="cd-menu__profile-pic" style="background-image: url(https://zen.coderdojo.com/img/avatar.png)"></div>
+        <div class="cd-menu__profile-pic" style="background-image: url(https://zen.coderdojo.com/img/avatars/avatar.png)"></div>
         <!-- ENDIF user.picture -->
         <i component="user/status" class="fa fa-fw fa-circle status {user.status}"></i>
         <span class="cd-menu__profile-name">{user.username}</span>
@@ -117,7 +117,7 @@
             <!-- IF user.picture -->
             <div class="cd-menu__profile-pic" style="background-image: url({user.picture})"></div>
             <!-- ELSE -->
-            <div class="cd-menu__profile-pic" style="background-image: url(https://zen.coderdojo.com/img/avatar.png)"></div>
+            <div class="cd-menu__profile-pic" style="background-image: url(https://zen.coderdojo.com/img/avatars/avatar.png)"></div>
             <!-- ENDIF user.picture -->
             <span class="cd-menu__profile-name">{user.username}</span>
             <i class="cd-menu__sub-menu-icon fa fa-chevron-right"></i>
@@ -132,7 +132,7 @@
                 <!-- IF user.picture -->
                 <div class="cd-menu__profile-pic" style="background-image: url({user.picture})"></div>
                 <!-- ELSE -->
-                <div class="cd-menu__profile-pic" style="background-image: url(https://zen.coderdojo.com/img/avatar.png)"></div>
+                <div class="cd-menu__profile-pic" style="background-image: url(https://zen.coderdojo.com/img/avatars/avatar.png)"></div>
                 <!-- ENDIF user.picture -->
                 <span class="cd-menu__profile-name"></span>
               </div>
@@ -194,7 +194,7 @@
               <!-- IF user.picture -->
               <div class="cd-menu__profile-pic forum-avatar" style="background-image: url({user.picture})"></div>
               <!-- ELSE -->
-              <div class="cd-menu__profile-pic forum-avatar" style="background-image: url(https://zen.coderdojo.com/img/avatar.png)"></div>
+              <div class="cd-menu__profile-pic forum-avatar" style="background-image: url(https://zen.coderdojo.com/img/avatars/avatar.png)"></div>
               <!-- ENDIF user.picture -->
               <i component="user/status" class="fa fa-fw fa-circle status {user.status}"></i>
               <!-- ENDIF user.uid -->
