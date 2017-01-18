@@ -73,7 +73,7 @@
           Community
           <i class="cd-menu__dropdown-icon fa fa-chevron-down"></i>
           <ul>
-            <li><a href="https://zen.coderdojo.com/badges/">Badges</a></li>
+            <li><a href="https://zen.coderdojo.com/badges">Badges</a></li>
             <li><a href="https://forums.coderdojo.com/">Forums</a></li>
             <li><a href="https://ninjaforums.coderdojo.com/">Ninja Forums</a></li>
             <li><a href="http://coolestprojects.org/">Coolest Projects</a></li>
@@ -172,7 +172,7 @@
                 <span>Community</span>
               </div>
               <ul class="cd-menu__content-block">
-                <li><a href="https://zen.coderdojo.com/badges/">Badges</a></li>
+                <li><a href="https://zen.coderdojo.com/badges">Badges</a></li>
                 <li><a href="https://forums.coderdojo.com/">Forums</a></li>
                 <li><a href="https://ninjaforums.coderdojo.com/">Ninja Forums</a></li>
                 <li><a href="http://coolestprojects.org/">Coolest Projects</a></li>
