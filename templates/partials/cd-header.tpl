@@ -46,7 +46,7 @@
             </a>
           </li>
           <li><a href="{relative_path}/user/{user.userslug}">Forum Profile</a></li>
-          <li><a href="https://zen.coderdojo.com/profile">My Profile</a></li>
+          <li><a href="https://zen.coderdojo.com/dashboard/profile/edit">My Profile</a></li>
           <li><a href="https://zen.coderdojo.com/dashboard/my-dojos">My Dojos</a></li>
           <li><a href="https://zen.coderdojo.com/dashboard/dojos/events/user-events">My Events</a></li>
           <li class="cd-menu__cdf-admin-link"><a href="/dashboard/manage-dojos">Manage Dojos</a></li>
@@ -139,7 +139,7 @@
               </div>
               <ul class="cd-menu__content-block cd-menu__profile-menu">
                 <li><a class="cd-menu__profile-link" href="{relative_path}/user/{user.userslug}">Forum Profile</a></li>
-                <li><a href="https://zen.coderdojo.com/profile">My Profile</a></li>
+                <li><a href="https://zen.coderdojo.com/dashboard/profile/edit">My Profile</a></li>
                 <li><a href="https://zen.coderdojo.com/dashboard/my-dojos">My Dojos</a></li>
                 <li><a href="https://zen.coderdojo.com/dashboard/dojos/events/user-events">My Events</a></li>
                 <li class="cd-menu__cdf-admin-link"><a href="/dashboard/manage-dojos">Manage Dojos</a></li>
