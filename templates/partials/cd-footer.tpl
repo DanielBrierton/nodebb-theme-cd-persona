@@ -10,10 +10,11 @@
       <p class="cd-footer__address-line">Dogpatch Labs Unit 1,</p>
       <p class="cd-footer__address-line">The CHQ building,</p>
       <p class="cd-footer__address-line">Custom House Quay,</p>
-      <p class="cd-footer__address-line">Dublin 1, Ireland</p>
+      <p class="cd-footer__address-line">Dublin, Ireland</p>
       <p class="cd-footer__address-line">D01Y6H7</p>
     </div>
     <div class="col-sm-3 col-sm-offset-3">
+      <p><a href="https://hwf.zendesk.com/hc/">Help Center</a></p>
       <p><a href="https://zen.coderdojo.com/charter">Charter</a></p>
       <p><a href="https://zen.coderdojo.com/privacy-statement">Privacy Statement</a></p>
       <p><a href="http://github.coderdojo.com">Contribute</a></p>
