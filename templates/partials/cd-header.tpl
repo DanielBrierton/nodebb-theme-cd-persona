@@ -274,7 +274,7 @@
   </nav>
   <script type="text/javascript">
     window.cdMenu({
-      zenBase: 'http://localhost:8000/',
+      zenBase: 'https://zen.coderdojo.com/',
       loadProfileFromZen: false
     });
   </script>
