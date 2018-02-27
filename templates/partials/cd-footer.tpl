@@ -18,6 +18,7 @@
       <p><a href="https://zen.coderdojo.com/charter">Charter</a></p>
       <p><a href="https://zen.coderdojo.com/privacy-statement">Privacy Statement</a></p>
       <p><a href="http://github.coderdojo.com">Contribute</a></p>
+      <p><a href="https://coderdojo.com/donate/">Donate</a></p>
       <p class="cd-footer__social-icons">
         <a href="https://twitter.com/coderdojo" target="_blank">
           <span class="fa-stack fa-lg">

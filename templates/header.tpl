@@ -40,8 +40,8 @@
 
 <body class="{bodyClass} skin-{config.bootswatchSkin}">
 
-	<main class="cd-menu__content-container" id="panel">
+	<main id="panel">
 		<!-- IMPORT partials/cd-header.tpl -->
 		
-		<div id="content">
+		<div id="content" class="cd-menu__content-container">
 		<!-- IMPORT partials/noscript/warning.tpl -->
