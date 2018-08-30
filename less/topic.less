@@ -142,6 +142,55 @@
 		font-size: 10px;
 	}
 
+	.threaded-replies {
+		margin-left: 61px;
+		text-decoration: none;
+		margin-left: 60px;
+		font-size: 11px;
+
+
+		img, .user-icon {
+			.user-icon-style(16px, 10px, 50%);
+			vertical-align: 1px;
+		}
+
+		img {
+			vertical-align: -4px;
+		}
+
+		.replies-count {
+			margin-left: 3px;
+		}
+
+		.replies-last {
+			color: @gray-light;
+		}
+
+		.fa {
+			font-size: 80%;
+		}
+
+		.avatars {
+			position: relative;
+
+			&.hasMore > *:last-child:after {
+				content: "\2022\2022\2022";
+				width: 16px;
+				height: 16px;
+				line-height: 16px;
+				background: #000;
+				opacity: .6;
+				color: white;
+				position: absolute;
+				right: 2px;
+				border-radius: 50%;
+				bottom: -1px;
+				text-align: center;
+				font-size: 12px;
+			}
+		}
+	}
+
 	[component="post/reply-count"] {
 		margin-left: 61px;
 	}
